@@ -1,0 +1,168 @@
+.app__clients {
+    background: rgb(230, 230, 230);
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3em 0 3em;
+}
+
+.clients {
+    width: 33%;
+    display: grid;
+    justify-items: center;
+}
+
+.clients h4 {
+    font-size: 10em;
+    text-align: center;
+}
+
+.clients p {
+    width: 50%;
+    font-size: 2em;
+    text-align: center;
+}
+
+.years {
+    width: 33%;
+    display: grid;
+    justify-items: center;
+}
+
+.years h4 {
+    font-size: 10em;
+    text-align: center;
+}
+
+.years p {
+    width: 50%;
+    font-size: 2em;
+    text-align: center;
+}
+
+.random {
+    width: 33%;
+    display: grid;
+    justify-items: center;
+}
+
+.random h4 {
+    font-size: 10em;
+    text-align: center;
+}
+
+.random p {
+    width: 50%;
+    font-size: 2em;
+    text-align: center;
+}
+
+@media screen and (max-width: 1250px) {
+
+    .clients h4 {
+        font-size: 8em;
+    }
+
+    .clients p {
+        font-size: 1.5em;
+    }
+
+    .years h4 {
+        font-size: 8em;
+    }
+
+    .years p {
+        font-size: 1.5em;
+    }
+
+    .random h4 {
+        font-size: 8em;
+    }
+
+    .random p {
+        font-size: 1.5em;
+    }
+
+
+}
+
+@media screen and (max-width: 950px) {
+
+    .clients h4 {
+        font-size: 6em;
+    }
+
+    .clients p {
+        font-size: 1em;
+    }
+
+    .years h4 {
+        font-size: 6em;
+    }
+
+    .years p {
+        font-size: 1em;
+    }
+
+    .random h4 {
+        font-size: 6em;
+    }
+
+    .random p {
+        font-size: 1em;
+    }
+
+
+}
+
+@media screen and (max-width: 650px) {
+
+    .app__clients {
+
+        display: grid;
+        justify-items: center;
+
+    }
+
+    .clients {
+        width: 100%;
+    }
+
+    .clients h4 {
+        font-size: 10em;
+    }
+
+    .clients p {
+        width: 100%;
+        font-size: 2em;
+    }
+
+    .years {
+        width: 100%;
+    }
+
+    .years h4 {
+        font-size: 10em;
+    }
+
+    .years p {
+        width: 100%;
+        font-size: 2em;
+    }
+
+    .random {
+        width: 100%;
+    }
+
+    .random h4 {
+        font-size: 10em;
+    }
+
+    .random p {
+        width: 100%;
+        font-size: 2em;
+    }
+
+
+}

@@ -4,6 +4,8 @@ import Hero2 from './components/Hero2/Hero2';
 import SectionPage from './components/SectionPage/SectionPage';
 import Carrusel from './components/Carrusel/Carrusel';
 import Separator from './components/Separator/Separator';
+import Aboutme from './components/Aboutme/Aboutme';
+import Clients from './components/Clients/Clients';
 import './App.css';
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
       <SectionPage />
       <Carrusel />
       <Separator />
+      <Aboutme />
+      <Clients />
     </div>
   )
 }

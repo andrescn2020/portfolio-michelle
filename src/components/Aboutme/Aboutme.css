@@ -1,0 +1,139 @@
+.app__aboutme {
+
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #101010;
+
+}
+
+.app__aboutme-first-column {
+
+    display: grid;
+    width: 40%;
+    height: auto;
+    padding: 2em;
+    color: #9E8F79;
+
+}
+
+.app__aboutme-first-column h2 {
+
+    font-size: 3.5em;
+
+}
+
+.app__aboutme-first-column h3 {
+
+    font-size: 2.5em;
+    font-weight: 300;
+    margin: 1em 0 1em;
+
+}
+
+.app__aboutme-first-column p {
+
+    font-size: 2em;
+    font-weight: lighter;
+
+}
+
+.vermas-container {
+
+    margin-top: 2em;
+    display: flex;
+    justify-content: end;
+
+}
+
+.vermas-container a {
+
+    text-decoration: none;
+    color: #9E8F79;
+
+}
+
+.vermas {
+
+    font-size: 2em;
+    margin-right: 0.5em;
+
+}
+
+.icon {
+
+    align-self: end;
+    cursor: pointer;
+    font-size: 3.5em;
+
+}
+
+.app__aboutme-second-column {
+
+    width: 40%;
+    height: auto;
+    padding: 4em;
+
+}
+
+.app__aboutme-second-column img {
+
+    width: 100%;
+
+}
+
+@media screen and (max-width: 1550px) {
+
+    .app__aboutme-first-column  {
+
+        width: 50%;
+    
+    }
+
+    .app__aboutme-first-column h2 {
+
+        font-size: 2.5em;
+    
+    }
+    
+    .app__aboutme-first-column h3 {
+    
+        font-size: 2em;
+        font-weight: 300;
+        margin: 1em 0 1em;
+    
+    }
+    
+    .app__aboutme-first-column p {
+    
+        font-size: 1.5em;
+        font-weight: lighter;
+    
+    }
+
+}
+
+@media screen and (max-width: 1050px) {
+
+    .app__aboutme-first-column {
+
+        width: 100%;
+    
+    }
+
+    .app__aboutme-second-column {
+
+        width: 100%;
+    
+    }
+
+    .app__aboutme {
+
+        display: grid;
+        justify-items: center;
+        align-items: center;
+    
+    }
+
+}
