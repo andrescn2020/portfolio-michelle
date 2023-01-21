@@ -1,0 +1,106 @@
+.app__navbar {
+
+    background: #101010;
+
+    width: auto;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.app__navbar-phone {
+
+    background: #101010;
+
+    min-width: 100vw;
+
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.app__navbar-list-container {
+
+    display: flex;
+
+}
+
+.app__navbar-phone ul {
+
+    width: 100%;
+    min-height: 20vh;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    padding-left: 0;
+
+}
+
+.app__navbar-phone ul a {
+
+    color: #9E8F79;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.app__navbar-phone h1 {
+
+    color: #9E8F79;
+    width: 100%;
+    text-align: center;
+    font-size: 3em;
+    margin: 0;
+
+}
+
+.app__navbar ul {
+
+    width: 20%;
+    margin: 0 2em;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.app__navbar ul a {
+
+    color: #9E8F79;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+
+.app__navbar h1 {
+
+    color: #9E8F79;
+    width: 60%;
+    text-align: center;
+    font-size: 3em;
+    margin: 0.25em 0 0.25em;
+    
+}
+
+@media screen and (max-width: 1050px) {
+
+    
+.app__navbar h1 {
+
+    width: 40%;
+    
+}
+
+    .app__navbar ul {
+
+        margin-left: 0;
+        width: 30%;
+    
+    }
+
+}
+

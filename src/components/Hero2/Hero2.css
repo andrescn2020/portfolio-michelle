@@ -1,0 +1,116 @@
+.app__hero-container {
+
+    margin-top: 5%;
+    position: absolute;
+    top: 0;
+    
+}
+
+.app__hero-container h3 {
+
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: bold;
+    position: absolute;
+    top: 40%;
+    width: 80%;
+    text-align: center;
+    color: #afa79b;
+    font-size: 4em;
+
+}
+
+
+.app__hero-image-container {
+
+    margin-top: 7.5%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.app__hero-container img {
+ 
+    width: 40vw;
+    height: 80vh;
+    z-index: 0;
+    -webkit-mask-image: -webkit-gradient(linear, left top, left bottom,
+      from(rgba(0, 0, 0, 1)), to(rgba(0, 0, 0, .5)));
+
+}
+
+@media screen and (max-width: 1550px) {
+
+    .app__hero-image-container {
+
+        margin-top: 0%;
+    
+    }
+
+    .app__hero-container {
+
+        position: absolute;
+        top: 20%;
+
+    }
+
+    .app__hero-container h3 {
+
+        width: 90%;
+        font-size: 3.5em;
+        top: 35%;
+
+    }
+
+}
+
+@media screen and (max-width: 1150px) {
+
+    .app__hero-container img {
+
+        width: 60vw;
+    
+    }
+
+    .app__hero-container h3 {
+
+        font-size: 3em;
+
+    }
+
+}
+
+@media screen and (max-width: 720px) {
+
+    .app__hero-container {
+
+        position: absolute;
+        top: 40%;
+
+    }
+
+    .app__hero-container h3 {
+
+        top: 40%;
+        font-size: 2em;
+
+    }
+
+    .app__hero-container img {
+
+        width: 90vw;
+    
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+
+    .app__hero-container h3 {
+
+        top: 30%;
+
+    }
+
+
+
+}

@@ -1,0 +1,23 @@
+.app__separator {
+
+    width: auto;
+    height: 10vh;
+    display: grid;
+    justify-items: center;
+    background: #9E8F79;
+
+}
+
+.app__separator h2 {
+
+    margin: 0;
+    
+}
+
+.app__separator div {
+
+    width: 20%;
+    height: 3px;
+    background: black;
+    
+}
