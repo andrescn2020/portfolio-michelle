@@ -25,7 +25,7 @@ function App() {
       <Clients />
       <Services />
       <Separation2 />
-      <Testimonials />
+      <Testimonials /> 
     </div>
   )
 }

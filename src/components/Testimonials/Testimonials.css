@@ -1,76 +1,118 @@
 .app__testimonials {
 
     background: rgb(230, 230, 230);
-    min-height: 70vh;
-    color: #101010;
 
 }
 
-.app__testimonials h1 {
+.app__testimonials-container h1 {
 
-    color: #101010;
-    width: 100%;
-    text-align: center;
+    background-color: rgb(230, 230, 230);
     font-size: 5em;
-    padding: 1.5em 0 1em;
+    text-align: center;
+    padding: 1em 0 1em;
+    margin-bottom: 0;
 
 }
 
-@media screen and (max-width: 1050px) {
+.app__testimonials-text {
 
-    .carousel-control-prev {
+    margin-bottom: 5%;
 
-        left: -15% !important;
+}
 
+.app__testimonials-text h3 {
+
+    color: #101010;
+    font-size: 3em !important;
+    margin-bottom: 5%;
+
+}
+
+.app__testimonials-text p {
+
+    color: #101010;
+    font-size: 1.5em !important;
+
+}
+
+.carousel-control-next-icon {
+
+    background-image: url("/right.svg") !important;
+
+}
+
+.carousel-control-prev-icon {
+
+    background-image: url("/left.svg") !important;
+
+}
+
+.carousel-indicators {
+
+    display: none !important;
+
+}
+
+.d-block {
+    width: 25vw !important;
+}
+
+@media screen and (max-width: 1280px) {
+
+    .app__testimonials-text {
+
+        margin-bottom: 5%;
+    
     }
 
-    .col-lg-8 {
+    .app__carrusel-item {
 
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-    }
-
-    .text-muted {
-
-        width: 70%;
-        font-size: 1em;
-        text-align: center;
-
-    }
-
-    .carousel-control-next {
-
-        right: -15% !important;
+        margin-top: 25%;
 
     }
 
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 720px) {
 
-    .carousel-control-prev {
-
-        left: 0% !important;
-
-    }
-
-    .carousel-control-next {
-
-        right: 0% !important;
-
-    }
-
-}
-
-@media screen and (max-width: 550px) {
-
-    .app__testimonials h1 {
+    .app__testimonials-container h1 {
 
         font-size: 3em;
+    
+    }
 
+    .app__carrusel-item {
+
+        margin-top: 40%;
+
+    }
+
+}
+
+@media screen and (max-width: 560px) {
+
+    .app__carrusel-item {
+
+        margin-top: 70%;
+
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+
+    .app__carrusel-item {
+
+        position: relative;
+        top: -10%;
+
+
+    }
+
+    .app__testimonials-text p {
+
+        font-size: 1em !important;
+    
     }
 
 }
