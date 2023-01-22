@@ -1,6 +1,7 @@
 import React from "react";
 import {
   MDBCarousel,
+  MDBCarouselInner,
   MDBCarouselItem,
   MDBContainer,
   MDBRow,
