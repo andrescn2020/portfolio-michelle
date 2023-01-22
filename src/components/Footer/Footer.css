@@ -1,0 +1,213 @@
+.app__footer {
+
+    background: #101010;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.app__footer-first-row {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em 0 2em;
+    color: #9E8F79;
+
+}
+
+.app__footer-first-row div {
+
+    margin: 1em;
+
+}
+
+.app__footer-first-row div h3 {
+
+    text-align: center;
+    font-size: 2.5em;
+
+}
+
+.app__footer-first-row div p {
+
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 300;
+
+}
+
+.separator {
+
+    width: 3px;
+    height: 200px;
+    background-color: #9E8F79;
+
+}
+
+.app__footer-second-row {
+
+    margin-left: 2.5%;
+    width: 95%;
+    height: 3px;
+    background: #9E8F79;
+
+}
+
+.app__footer-third-row {
+
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: #9E8F79;
+
+}
+
+.items {
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 2em;
+    width: 33%;
+
+}
+
+.items h4 {
+
+    margin-left: 2em;
+
+}
+
+.copyright {
+
+    width: 33%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.links {
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 33%;
+
+}
+
+.icon {
+
+    color: #9E8F79;
+    margin: 0.5em;
+
+}
+
+@media screen and (max-width: 920px) {
+
+    .app__footer-first-row div {
+
+        margin: 0.75em;
+
+    }
+
+    .app__footer-first-row div h3 {
+
+        font-size: 2em;
+
+    }
+
+    .app__footer-first-row div p {
+
+        font-size: 1.25em;
+
+    }
+
+
+
+    .items {
+
+        gap: 0;
+
+    }
+
+    .items h4 {
+
+        margin-left: 2em;
+
+    }
+
+    .copyright {
+
+        justify-content: start;
+
+    }
+
+}
+
+@media screen and (max-width: 720px) {
+
+    .app__footer-first-row {
+
+        margin-top: 0;
+        flex-direction: column;
+        gap: 0;
+    
+    }
+
+    .app__footer-first-row p {
+
+        margin-left: 20%;
+        width: 60%;
+    
+    }
+
+    .separator {
+
+        transform: rotate(90deg);
+        margin: 0;
+        display: none;
+    
+    }
+
+    .app__footer-third-row {
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .items {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0em;
+        width: 33%;
+        margin: 1em;
+
+    }
+
+    .items h4 {
+
+        margin-left: 0;
+
+    }
+
+    .copyright {
+
+        width: 33%;
+        display: flex;
+        justify-content: center;
+    
+    }
+
+    .links {
+
+        justify-content: center;
+    
+    }
+    
+
+}

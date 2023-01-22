@@ -12,6 +12,7 @@ import Testimonials from './components/Testimonials/Testimonials';
 import Captive from './components/Captive/Captive';
 import Journal from './components/Journal/Journal';
 import FooterCarrusel from './components/FooterCarrusel/FooterCarrusel';
+import Footer from './components/Footer/Footer';
 import './App.css';
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
       <Captive />
       <Journal />
       <FooterCarrusel />
+      <Footer />
     </div>
   )
 }
