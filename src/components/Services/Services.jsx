@@ -13,7 +13,6 @@ const Services = () => {
 
       <div className="app__services-containers">
 
-
         <div className="app__services-container">
           <img src={ImageOne} alt="BOUDOIR" />
           <h3>BOUDOIR</h3>

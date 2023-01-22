@@ -10,6 +10,7 @@ import Services from './components/Services/Services';
 import Separation2 from './components/Separation2/Separation2';
 import Testimonials from './components/Testimonials/Testimonials';
 import Captive from './components/Captive/Captive';
+import Journal from './components/Journal/Journal';
 import './App.css';
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
       <Separation2 />
       <Testimonials /> 
       <Captive />
+      <Journal />
     </div>
   )
 }
