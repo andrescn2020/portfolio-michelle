@@ -1,0 +1,17 @@
+.app__separator2 {
+
+    width: auto;
+    height: 10vh;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background: #101010;
+
+}
+
+.app__separator2 h2 {
+
+    color: #9E8F79;
+    margin: 0;
+    
+}

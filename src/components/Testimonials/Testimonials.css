@@ -2,11 +2,13 @@
 
     background: rgb(230, 230, 230);
     min-height: 70vh;
+    color: #101010;
 
 }
 
 .app__testimonials h1 {
 
+    color: #101010;
     width: 100%;
     text-align: center;
     font-size: 5em;

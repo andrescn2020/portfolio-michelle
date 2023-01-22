@@ -7,6 +7,7 @@ import Separator from './components/Separator/Separator';
 import Aboutme from './components/Aboutme/Aboutme';
 import Clients from './components/Clients/Clients';
 import Services from './components/Services/Services';
+import Separation2 from './components/Separation2/Separation2';
 import Testimonials from './components/Testimonials/Testimonials';
 import './App.css';
 
@@ -23,6 +24,7 @@ function App() {
       <Aboutme />
       <Clients />
       <Services />
+      <Separation2 />
       <Testimonials />
     </div>
   )
