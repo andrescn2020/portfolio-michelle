@@ -7,6 +7,7 @@ import Separator from './components/Separator/Separator';
 import Aboutme from './components/Aboutme/Aboutme';
 import Clients from './components/Clients/Clients';
 import Services from './components/Services/Services';
+import Testimonials from './components/Testimonials/Testimonials';
 import './App.css';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Aboutme />
       <Clients />
       <Services />
+      <Testimonials />
     </div>
   )
 }
