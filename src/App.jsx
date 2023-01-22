@@ -11,6 +11,7 @@ import Separation2 from './components/Separation2/Separation2';
 import Testimonials from './components/Testimonials/Testimonials';
 import Captive from './components/Captive/Captive';
 import Journal from './components/Journal/Journal';
+import FooterCarrusel from './components/FooterCarrusel/FooterCarrusel';
 import './App.css';
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
       <Testimonials /> 
       <Captive />
       <Journal />
+      <FooterCarrusel />
     </div>
   )
 }

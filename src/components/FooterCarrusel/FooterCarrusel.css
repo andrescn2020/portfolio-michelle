@@ -1,0 +1,8 @@
+#app__footer-carrusel {
+
+    display: flex;
+    align-items: center;
+    min-height: 60vh;
+    background-color: #101010;
+
+}
