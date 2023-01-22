@@ -1,0 +1,112 @@
+.app__services {
+
+    background: #9E8F79;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.app__services h1 {
+
+    width: 100%;
+    text-align: center;
+    font-size: 5em;
+    margin: 1em;
+
+}
+
+.app__services-containers {
+
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.app__services-container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.app__services-container img {
+
+    width: 25vw;
+    margin: 1.5em;
+
+}
+
+.app__services-container h3 {
+
+    font-size: 3em;
+    margin: 0.5em;
+
+}
+
+.app__services-container p {
+
+    width: 80%;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 300;
+    margin-bottom: 1.5em;
+
+}
+
+
+.app__services-container div {
+
+    background: #101010;
+    width: 25%;
+    height: 3px;
+    margin-bottom: 3em;
+
+}
+
+@media screen and (max-width: 1050px) {
+
+    .app__services-container img {
+
+        width: 28vw;
+        margin: 1em;
+    
+    }
+
+    .app__services-container h3 {
+
+        font-size: 2.5em;
+    
+    }
+
+    .app__services-container p {
+
+        width: 90%;
+        font-size: 1.25em;
+    
+    }
+
+}
+
+@media screen and (max-width: 630px) {
+
+    .app__services-containers {
+
+        flex-direction: column;
+    
+    }
+
+    .app__services-container img {
+
+        width: 80vw;
+        margin: 1em;
+    
+    }
+
+}
