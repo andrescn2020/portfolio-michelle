@@ -1,0 +1,57 @@
+.app__captive {
+
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background: #101010;
+    color: #9E8F79;
+    width: auto;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.app__captive h4 {
+
+    text-align: center;
+    font-weight: 300;
+    width: 40%;
+    margin: 0;
+
+}
+
+.app__captive h2 {
+
+    text-align: center;
+    width: 50%;
+    font-size: 3em;
+    margin: 1em 0 1em;
+    letter-spacing: 1px;
+
+}
+
+.app__captive-button {
+
+    background: #9E8F79;
+    color: #101010;
+    font-size: 1.5em;
+    padding: 0;
+    border: none;
+    width: 12em;
+    height: 3em;
+
+}
+
+@media screen and (max-width: 1150px) {
+
+    
+    .app__captive h2 {
+
+        width: 80%;
+        font-size: 2.5em;
+    
+    }
+    
+    }

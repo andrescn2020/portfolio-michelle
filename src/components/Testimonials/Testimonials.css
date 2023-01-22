@@ -67,6 +67,16 @@
 
     .app__carrusel-item {
 
+        margin-top: 10%;
+
+    }
+
+}
+
+@media screen and (max-width: 920px) {
+
+    .app__carrusel-item {
+
         margin-top: 25%;
 
     }

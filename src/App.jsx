@@ -9,6 +9,7 @@ import Clients from './components/Clients/Clients';
 import Services from './components/Services/Services';
 import Separation2 from './components/Separation2/Separation2';
 import Testimonials from './components/Testimonials/Testimonials';
+import Captive from './components/Captive/Captive';
 import './App.css';
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
       <Services />
       <Separation2 />
       <Testimonials /> 
+      <Captive />
     </div>
   )
 }
