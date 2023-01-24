@@ -7,7 +7,7 @@ const Navbar = () => {
 
   return (
 
-    <nav>
+    <nav id="navbar">
 
       {width < 720
 
@@ -21,13 +21,13 @@ const Navbar = () => {
 
             <ul className="app__navbar-list">
 
-              <a href="#">
+              {/* <a href="#">
                 <li>HOME</li>
-              </a>
-              <a href="#">
+              </a> */}
+              <a href="#sobremi">
                 <li>SOBRE MÍ</li>
               </a>
-              <a href="#">
+              <a href="#services">
                 <li>SERVICIOS</li>
               </a>
 
@@ -35,15 +35,15 @@ const Navbar = () => {
 
             <ul className="app__navbar-list">
 
-              <a href="#">
+              <a href="#app__carrusel">
                 <li>GALERIA</li>
               </a>
-              <a href="#">
+              <a href="#footer">
                 <li>CONTACTO</li>
               </a>
-              <a href="#">
+              {/* <a href="#">
                 <li>BLOG</li>
-              </a>
+              </a> */}
             </ul>
 
           </div>
@@ -54,17 +54,17 @@ const Navbar = () => {
 
         :
 
-        <div className="app__navbar">
+        <div  className="app__navbar">
 
           <ul>
 
-            <a href="#">
+            {/* <a href="#" className="link-navbar">
               <li>HOME</li>
-            </a>
-            <a href="#">
+            </a> */}
+            <a href="#sobremi" className="link-navbar">
               <li>SOBRE MÍ</li>
             </a>
-            <a href="#">
+            <a href="#services" className="link-navbar">
               <li>SERVICIOS</li>
             </a>
 
@@ -73,15 +73,15 @@ const Navbar = () => {
           <h1>MICHELLE</h1>
 
           <ul>
-            <a href="#">
+            <a href="#app__carrusel" className="link-navbar">
               <li>GALERIA</li>
             </a>
-            <a href="#">
+            <a href="#footer" className="link-navbar">
               <li>CONTACTO</li>
             </a>
-            <a href="#">
+            {/* <a href="#" className="link-navbar">
               <li>BLOG</li>
-            </a>
+            </a> */}
           </ul>
 
         </div>}

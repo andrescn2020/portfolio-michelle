@@ -5,7 +5,7 @@ const Footer = () => {
 
   return (
 
-    <footer className="app__footer">
+    <footer id="footer" className="app__footer">
 
       <div className="app__footer-first-row">
 
@@ -36,8 +36,13 @@ const Footer = () => {
       <div className="app__footer-third-row">
 
         <div className="items">
+          <a href="#navbar" className="link-footer">
           <h4>HOME</h4>
+          </a>
+          
+          <a href="#sobremi" className="link-footer">
           <h4>MICHELLE</h4>
+          </a>
         </div>
 
         <div className="copyright">

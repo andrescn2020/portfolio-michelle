@@ -103,6 +103,21 @@
 
 }
 
+.link-footer {
+
+    text-decoration: none;
+    color: #9E8F79;
+    transition: .75s;
+
+}
+
+.link-footer:hover {
+
+    color: whitesmoke;
+
+}
+
+
 @media screen and (max-width: 920px) {
 
     .app__footer-first-row div {

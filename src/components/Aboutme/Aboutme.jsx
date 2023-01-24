@@ -1,12 +1,11 @@
 import "./Aboutme.css";
 import AboutmeImage from "/assets/Aboutme.jpg";
-import { FiChevronRight } from "react-icons/fi";
 
 const Aboutme = () => {
 
     return (
 
-        <div className="app__aboutme">
+        <div id="sobremi" className="app__aboutme">
 
             <div className="app__aboutme-first-column">
                 <h2>Meet the creative soul behind the lens, Michelle.</h2>

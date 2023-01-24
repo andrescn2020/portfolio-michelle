@@ -46,6 +46,18 @@
 
 }
 
+.link-navbar {
+
+    transition: .75s;
+
+}
+
+.link-navbar:hover {
+
+    color: whitesmoke;
+
+}
+
 .app__navbar-phone h1 {
 
     color: #9E8F79;
@@ -62,7 +74,7 @@
     margin: 0 2em;
     padding-left: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 
 }

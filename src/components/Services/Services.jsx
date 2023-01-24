@@ -7,7 +7,7 @@ const Services = () => {
 
   return (
 
-    <div className="app__services">
+    <div id="services" className="app__services">
 
       <h1>SERVICES</h1>
 
